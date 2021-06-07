@@ -13,7 +13,7 @@ The script has been tested on Windows using a Conda environment under Python 3.5
 In addition, CUDA 9.0 and cuDNN 7 have been used.
 
 # How to Run
-1. Install the aforementioned dependencies in a virtual environment
+1. Install the aforementioned dependencies in a virtual environment (I reccmonend creating a virtual environent with Anaconda Navigator)
 2. Download and extract the repository
 3. Run each of the dataset's respective scripts in the root of the repository in your virtual environment.
 
