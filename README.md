@@ -1,5 +1,5 @@
 # GAT Reproduction
-A repository containing files for reproducing the results of the ICLR 2018 confrence paper Graph Attention Networks.  This repository only contains files to reproduce the Transductive classification benchmarks of the paper.
+A repository containing files for reproducing the results of the ICLR 2018 confrence paper Graph Attention Networks, as well as pre-trained modesl for each dataset. This repository only contains files to reproduce the Transductive classification benchmarks of the paper.
 
 # Dependencies
 
