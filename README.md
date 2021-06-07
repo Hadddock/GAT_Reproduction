@@ -21,6 +21,7 @@ In addition, CUDA 9.0 and cuDNN 7 have been used.
 Running execute_pubmed_sparse.py produced issues with my GPU not being compatible with CUDA 9.0, so I have opted to disable usage of the GPU in the script. To attempt to run the script with the GPU, simply comment out line 12 of execute_pubmed_sparse.py
 
 # Acknowledgements
+* The Graph Attention Networks paper https://arxiv.org/abs/1710.10903, contains the results the code in the repository attempts to reproduce.
 * GAT main repository can be found here: https://github.com/PetarV-/GAT. Most all of the code here is taken from the main GAT repository, with the only edits included to ease reproducing the results of the paper.
-* See https://github.com/gordicaleksa/pytorch-GAT for reproducing the inductive benchmarks using pytorch and Tensorflow 2.0 (as well as the inductive benchmarks in pytorch)
-
+* See https://github.com/gordicaleksa/pytorch-GAT by Aleksa Gordić for reproducing the inductive benchmarks using pytorch and Tensorflow 2.0 (as well as the inductive benchmarks in pytorch)
+* See https://www.youtube.com/watch?v=uFLeKkXWq2c for an extremely helpful and informative walkthrough of the GAT paper also by Aleksa Gordić
